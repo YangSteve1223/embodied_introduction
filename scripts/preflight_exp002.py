@@ -8,7 +8,14 @@ import importlib.metadata
 import os
 import platform
 import sys
+from pathlib import Path
 from typing import Any
+
+
+# Make the repository package importable when this file is invoked directly.
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 
 def parse_args() -> argparse.Namespace:

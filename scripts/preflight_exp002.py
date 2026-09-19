@@ -19,8 +19,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=20260919)
     parser.add_argument(
         "--compat-module",
-        default=os.environ.get("EXP002_COMPAT_MODULE"),
-        help="optional module that installs the existing headless compatibility patch",
+        default=os.environ.get("EXP002_COMPAT_MODULE", "exp002.headless_compat"),
+        help="module that installs the headless visual compatibility patch (default: exp002.headless_compat)",
     )
     return parser.parse_args()
 

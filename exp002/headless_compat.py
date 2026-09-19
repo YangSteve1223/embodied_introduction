@@ -49,9 +49,28 @@ def install_headless_visual_patch() -> dict[str, list[str]]:
 
     # Some task/robot loaders instantiate materials even when rendering is
     # disabled. The material object is unused by state-only experiments.
-    sapien.render.RenderMaterial = lambda *args, **kwargs: None
+    null_material = lambda *args, **kwargs: None
+    sapien.render.RenderMaterial = null_material
 
-    result: dict[str, list[str]] = {}
+    # SAPIEN's Python modules may have imported RenderMaterial into their own
+    # module namespace before ManiSkill is registered. Updating only
+    # sapien.render.RenderMaterial does not update those bound references.
+    material_modules = (
+        "sapien.wrapper.actor_builder",
+        "sapien.wrapper.urdf_loader",
+        "mani_skill.utils.building.urdf_loader",
+    )
+    patched_material_modules = []
+    for module_name in material_modules:
+        try:
+            module = __import__(module_name, fromlist=["RenderMaterial"])
+            if hasattr(module, "RenderMaterial"):
+                setattr(module, "RenderMaterial", null_material)
+                patched_material_modules.append(module_name)
+        except Exception as exc:  # pragma: no cover - depends on installed version
+            print(f"warning: material patch {module_name}: {exc!r}")
+
+    result: dict[str, list[str]] = {"material_modules": patched_material_modules}
     try:
         from mani_skill.utils.building.actor_builder import ActorBuilder
 

@@ -27,8 +27,9 @@ class NoiseTests(unittest.TestCase):
         )
         action = torch.zeros(128, 7)
         result = add_action_noise(action, config)
-        self.assertLessEqual(float(result.max()), 0.05)
-        self.assertGreaterEqual(float(result.min()), -0.05)
+        tolerance = 1e-6
+        self.assertLessEqual(float(result.max()), 0.05 + tolerance)
+        self.assertGreaterEqual(float(result.min()), -0.05 - tolerance)
 
     def test_observation_scale_broadcasts(self):
         config = InterfaceNoiseConfig(

@@ -19,10 +19,25 @@ ppo:
   entropy_coefficient: 0.01
   num_minibatches: 32
   update_epochs: 8
+  gamma: 0.8
+  gae_lambda: 0.9
+  clip_coef: 0.2
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  target_kl: 0.1
 
 noise:
   enabled: false
+  state_layout: peg_insertion_state_v1
   obs_sigma: 0.05
   obs_clip: 0.15
   action_sigma: 0.02
   action_clip: 0.05
+  qpos_sigma: 0.003
+  qpos_clip: 0.01
+  qvel_sigma: 0.01
+  qvel_clip: 0.03
+  position_sigma: 0.002
+  position_clip: 0.006
+  orientation_sigma_deg: 0.5
+  orientation_clip_deg: 1.5

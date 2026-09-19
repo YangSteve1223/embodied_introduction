@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 import random
+import sys
 import time
 from dataclasses import asdict
 from pathlib import Path
@@ -21,8 +22,12 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.distributions.normal import Normal
 from torch.utils.tensorboard import SummaryWriter
+
+# Make the repository package importable when this file is invoked directly.
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from exp002.config import ExperimentConfig, load_experiment_config
 from exp002.noise import (
@@ -31,6 +36,7 @@ from exp002.noise import (
     add_peg_insertion_observation_noise,
     add_action_noise,
 )
+from exp002.ppo import Agent
 
 
 def parse_args() -> argparse.Namespace:
@@ -52,55 +58,6 @@ def seed_everything(seed: int) -> None:
     torch.manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
-
-
-def layer_init(layer: nn.Linear, std: float = np.sqrt(2), bias_const: float = 0.0):
-    torch.nn.init.orthogonal_(layer.weight, std)
-    torch.nn.init.constant_(layer.bias, bias_const)
-    return layer
-
-
-class Agent(nn.Module):
-    def __init__(self, observation_dim: int, action_dim: int):
-        super().__init__()
-        self.critic = nn.Sequential(
-            layer_init(nn.Linear(observation_dim, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, 1)),
-        )
-        self.actor_mean = nn.Sequential(
-            layer_init(nn.Linear(observation_dim, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, 256)),
-            nn.Tanh(),
-            layer_init(nn.Linear(256, action_dim), std=0.01 * np.sqrt(2)),
-        )
-        self.actor_logstd = nn.Parameter(torch.full((1, action_dim), -0.5))
-
-    def get_value(self, obs: torch.Tensor) -> torch.Tensor:
-        return self.critic(obs)
-
-    def get_action_and_value(
-        self, obs: torch.Tensor, action: torch.Tensor | None = None
-    ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-        action_mean = self.actor_mean(obs)
-        action_logstd = self.actor_logstd.expand_as(action_mean)
-        action_std = torch.exp(action_logstd)
-        distribution = Normal(action_mean, action_std)
-        if action is None:
-            action = distribution.sample()
-        return (
-            action,
-            distribution.log_prob(action).sum(dim=1),
-            distribution.entropy().sum(dim=1),
-            self.critic(obs),
-        )
 
 
 def make_noise_config(config: ExperimentConfig) -> InterfaceNoiseConfig:
@@ -163,6 +120,8 @@ def main() -> int:
     if args.device == "cuda" and not torch.cuda.is_available():
         raise RuntimeError("CUDA is required for the configured EXP-002 run")
     device = torch.device(args.device)
+    if device.type == "cuda" and device.index is None:
+        device = torch.device("cuda", torch.cuda.current_device())
     seed_everything(seed)
 
     output_dir = Path(args.output_dir)

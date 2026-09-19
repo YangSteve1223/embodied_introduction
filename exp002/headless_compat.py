@@ -26,6 +26,18 @@ VISUAL_METHODS = (
 )
 
 
+class _NullMaterial:
+    """Attribute-tolerant material placeholder used by URDF parsing."""
+
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
+        self.base_color = None
+
+    def __getattr__(self, name: str) -> Any:
+        # Different SAPIEN versions read different optional material fields.
+        # Returning None keeps the parser alive; visual builders are skipped.
+        return None
+
+
 def _skip_visual(self: Any, *args: Any, **kwargs: Any) -> Any:
     """Preserve the builder chain while omitting visual geometry."""
 
@@ -49,7 +61,7 @@ def install_headless_visual_patch() -> dict[str, list[str]]:
 
     # Some task/robot loaders instantiate materials even when rendering is
     # disabled. The material object is unused by state-only experiments.
-    null_material = lambda *args, **kwargs: None
+    null_material = _NullMaterial
     sapien.render.RenderMaterial = null_material
 
     # SAPIEN's Python modules may have imported RenderMaterial into their own

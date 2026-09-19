@@ -1,0 +1,30 @@
+experiment_id: EXP-002
+condition: noisy
+seed: 1001
+
+environment:
+  task: PegInsertionSide-v1
+  robot_uids: panda_wristcam
+  obs_mode: state
+  control_mode: pd_ee_delta_pose
+  sim_backend: physx_cuda
+  render_backend: none
+  reward_mode: normalized_dense
+  num_envs: 2048
+
+ppo:
+  num_steps: 100
+  total_timesteps: 102400000
+  learning_rate: 0.0003
+  entropy_coefficient: 0.01
+  num_minibatches: 32
+  update_epochs: 8
+
+noise:
+  enabled: true
+  # These are standardized-unit defaults. The preflight will supply the
+  # per-feature observation scale before a formal run.
+  obs_sigma: 0.05
+  obs_clip: 0.15
+  action_sigma: 0.02
+  action_clip: 0.05

@@ -15,6 +15,20 @@ PickCube-v1 + Franka Panda + GPU PhysX + headless state observations
 
 The next planned experiment studies robustness on `PegInsertionSide-v1` under controlled observation/action noise. The NVIDIA graphics runtime on the shared server is not currently exposed, so state-only GPU simulation is used for high-throughput experiments and rendering is treated as a separate qualitative-evaluation concern.
 
+## EXP-002 code
+
+The first public implementation pieces are under `exp002/`, `configs/exp002/`,
+`scripts/`, and `tests/`. The preflight is intentionally read-only:
+
+```bash
+python scripts/preflight_exp002.py --num-envs 16 --steps 5
+```
+
+It must pass before a formal run. The training adapter is kept separate from
+the existing server-side PPO entry point until that entry point has been
+audited; this prevents a configuration file from silently changing the
+meaning of the previous baseline.
+
 ## Repository policy
 
 Source documents, experiment contracts, records, and analysis notes belong in Git. Generated logs, checkpoints, datasets, videos, local environments, secrets, and server-specific outputs are excluded by `.gitignore`.

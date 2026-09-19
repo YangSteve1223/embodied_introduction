@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter and local tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.token
+credentials.json
+
+# Private research notes and internal server documentation
+MEMORY.md
+5. \[QA\] Trouble Shooting.pdf
+服务器用户手册.md
+RoboTwin_ACT_Experiment_Roadmap.md
+EXPERIMENT_CONTRACT.md
+EXPERIMENT_RECORD.md
+
+# Experiment outputs and large generated artifacts
+runs/
+logs/
+data/
+outputs/
+checkpoints/
+eval_result/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.mp4
+*.avi
+
+# Local scratch space
+scratch/
+tmp/

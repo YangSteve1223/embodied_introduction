@@ -42,6 +42,7 @@ eval_result/
 artifacts/
 exp002/server_results/
 exp003/results/
+exp004/results/
 *.pt
 *.pth
 *.ckpt

@@ -49,6 +49,7 @@ def load_exp004_checkpoint(
         update = int(checkpoint["continuation_update"])
         if expected_update is not None and update != expected_update:
             raise ValueError("checkpoint endpoint does not match matrix")
+        snapshot = checkpoint["config"]
         # Formal runs use the registered 2048x100 batch.  The bounded smoke
         # intentionally overrides num_envs/num_steps, so validate its step
         # count against the immutable runtime snapshot rather than assuming
@@ -60,7 +61,6 @@ def load_exp004_checkpoint(
         expected_step = config.source_global_step + update * runtime_batch_size
         if int(checkpoint["global_step"]) != expected_step:
             raise ValueError("checkpoint global_step does not match continuation update")
-        snapshot = checkpoint["config"]
         if snapshot.get("environment") != config.snapshot()["environment"]:
             raise ValueError("checkpoint environment does not match config")
         if snapshot.get("ppo") != config.snapshot()["ppo"]:

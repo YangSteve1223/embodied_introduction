@@ -1,0 +1,50 @@
+{
+  "experiment_id": "EXP-003",
+  "environment": {
+    "task": "PegInsertionSide-v1",
+    "robot_uids": "panda_wristcam",
+    "obs_mode": "state",
+    "control_mode": "pd_ee_delta_pose",
+    "sim_backend": "physx_cuda",
+    "render_backend": "none",
+    "reward_mode": "normalized_dense"
+  },
+  "ppo": {
+    "num_envs": 2048,
+    "num_steps": 100,
+    "learning_rate": 0.0003,
+    "entropy_coefficient": 0.01,
+    "num_minibatches": 32,
+    "update_epochs": 8,
+    "gamma": 0.8,
+    "gae_lambda": 0.9,
+    "clip_coef": 0.2,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": null
+  },
+  "noise": {
+    "qpos_sigma": 0.003,
+    "qpos_clip": 0.01,
+    "qvel_sigma": 0.01,
+    "qvel_clip": 0.03,
+    "position_sigma": 0.002,
+    "position_clip": 0.006,
+    "orientation_sigma_deg": 0.5,
+    "orientation_clip_deg": 1.5,
+    "action_sigma": 0.02,
+    "action_clip": 0.05
+  },
+  "evaluation": {
+    "num_envs": 64,
+    "episodes": 256,
+    "seeds": [20260920, 20260921],
+    "multipliers": [1.0, 2.0, 4.0],
+    "components": ["observation", "action", "combined"]
+  },
+  "continuation": {
+    "additional_timesteps": 20480000,
+    "checkpoint_interval_updates": 10,
+    "warmup_fraction": 0.2
+  }
+}

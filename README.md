@@ -29,6 +29,28 @@ the existing server-side PPO entry point until that entry point has been
 audited; this prevents a configuration file from silently changing the
 meaning of the previous baseline.
 
+### EXP-002 offline closure tools
+
+After copying the server results, the formal JSON matrix can be validated and
+summarized without importing ManiSkill:
+
+```bash
+python3 scripts/summarize_exp002.py \
+  --results-root exp002/server_results \
+  --output-json exp002/server_results/exp002_summary.json
+```
+
+On the server, use the `maniskill` environment to export the six formal
+TensorBoard event files to CSV. This is a read-only post-hoc operation and
+does not start TensorBoard:
+
+```bash
+/share/yangpengju-local/anaconda3/envs/maniskill/bin/python \
+  scripts/export_exp002_scalars.py \
+  --runs-root /share/yangpengju-local/embodied/runs/exp002 \
+  --output-csv /share/yangpengju-local/embodied/runs/exp002/exp002_scalars.csv
+```
+
 ## Repository policy
 
 Source documents, experiment contracts, records, and analysis notes belong in Git. Generated logs, checkpoints, datasets, videos, local environments, secrets, and server-specific outputs are excluded by `.gitignore`.

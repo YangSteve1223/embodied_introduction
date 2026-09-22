@@ -41,7 +41,7 @@
 本地项目：
 
 ```text
-/Users/yangda/Documents/Codex/2026-09-18/wo/embodied_introduction
+/Users/yangda/Documents/TaskandWork/embodied_introduction
 ```
 
 服务器项目：

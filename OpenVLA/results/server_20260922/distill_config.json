@@ -1,0 +1,9 @@
+{
+  "cache": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/04_head_proprio_distill/teacher_actions.npy",
+  "run_dir": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/04_head_proprio_distill/formal_500",
+  "suites": "libero_spatial_no_noops,libero_object_no_noops",
+  "max_steps": 500,
+  "grad_accum": 4,
+  "lr": 0.0001,
+  "seed": 20260922
+}

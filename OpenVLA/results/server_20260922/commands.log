@@ -1,0 +1,31 @@
+# Reproduction command summary
+export ROOT=/share/yangpengju-local/openvla-oft-repro
+export RUN=$ROOT/runs/post_training_20260922
+export PY=$ROOT/anaconda3/envs/openvla-oft-repro/bin/python
+export SRC=$ROOT/src/openvla-oft
+export CODE=$RUN/code
+
+# Stage 0 audit
+ssh act-server; inspect nvidia-smi, git rev-parse/status, pip freeze/check, checkpoint files/SHA256, and the retained local inference smoke log.
+
+# Stage 1 data
+HF_ENDPOINT=https://hf-mirror.com $PY $CODE/download_datasets.py --output $RUN/01_dataset
+$PY $CODE/materialize_rlds.py --dataset-root $ROOT/datasets/modified_libero_rlds --output $RUN/01_dataset/materialized --seed 20260922 --train-cap 64 --heldout-cap 32
+
+# Stage 2 baseline
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=1 $PY $CODE/offline_eval.py --split heldout --suites libero_spatial_no_noops,libero_object_no_noops --output $RUN/02_offline_baseline/baseline_heldout.json
+
+# Stage 3 SFT and fixed-heldout checkpoint comparison
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=2 $PY $CODE/train_head_proprio.py --run-dir $RUN/03_head_proprio_sft/formal_full_1000 --max-steps 1000 --save-freq 250 --mode full
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=0 $PY $CODE/offline_eval.py --split heldout --components $RUN/03_head_proprio_sft/eval_step250 --output $RUN/03_head_proprio_sft/eval_step250/heldout.json
+
+# Stage 4 teacher cache + distillation
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=3 $PY $CODE/build_teacher_cache.py --output $RUN/04_head_proprio_distill/teacher_actions.npy
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=3 $PY $CODE/train_distill.py --run-dir $RUN/04_head_proprio_distill/formal_500 --max-steps 500
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=0 $PY $CODE/offline_eval.py --split heldout --components $RUN/04_head_proprio_distill/eval_step250 --output $RUN/04_head_proprio_distill/eval_step250/heldout.json
+
+# Stage 5 smoke and final reload
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=0 $PY $CODE/train_lora_smoke.py --run-dir $RUN/05_lora/lora_smoke_r8 --max-steps 3
+PYTHONPATH=$CODE:$SRC CUDA_VISIBLE_DEVICES=0 $PY $CODE/offline_eval.py --split heldout --components $RUN/03_head_proprio_sft/formal_full_1000 --max-samples 1 --output $RUN/03_head_proprio_sft/formal_full_1000/reload_smoke.json
+
+All long commands were run in tmux; logs, FINISHED/SUCCESS markers, configs, checkpoints, and hashes remain under RUN.

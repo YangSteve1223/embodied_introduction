@@ -1,0 +1,14 @@
+{
+  "data_root": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/01_dataset/materialized",
+  "teacher_dir": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/04_head_proprio_distill",
+  "run_dir": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/06_true_distill/small_student_ddp_1000",
+  "suites": "libero_spatial_no_noops,libero_object_no_noops",
+  "max_steps": 1000,
+  "batch_size": 16,
+  "lr": 0.0003,
+  "teacher_weight": 0.5,
+  "seed": 20260922,
+  "world_size": 3,
+  "parameters": 213656,
+  "vocab_size": 45
+}

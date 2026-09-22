@@ -1,0 +1,3207 @@
+{
+  "checkpoint": "/share/yangpengju-local/openvla-oft-repro/checkpoints/openvla-7b-oft-finetuned-libero-spatial",
+  "count": 640,
+  "ids": [
+    {
+      "sample_index": 0,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 0
+    },
+    {
+      "sample_index": 1,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 1
+    },
+    {
+      "sample_index": 2,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 2
+    },
+    {
+      "sample_index": 3,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 3
+    },
+    {
+      "sample_index": 4,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 4
+    },
+    {
+      "sample_index": 5,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 5
+    },
+    {
+      "sample_index": 6,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 6
+    },
+    {
+      "sample_index": 7,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 7
+    },
+    {
+      "sample_index": 8,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 8
+    },
+    {
+      "sample_index": 9,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 9
+    },
+    {
+      "sample_index": 10,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 10
+    },
+    {
+      "sample_index": 11,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 11
+    },
+    {
+      "sample_index": 12,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 12
+    },
+    {
+      "sample_index": 13,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 13
+    },
+    {
+      "sample_index": 14,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 14
+    },
+    {
+      "sample_index": 15,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 15
+    },
+    {
+      "sample_index": 16,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 16
+    },
+    {
+      "sample_index": 17,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 17
+    },
+    {
+      "sample_index": 18,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 18
+    },
+    {
+      "sample_index": 19,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 19
+    },
+    {
+      "sample_index": 20,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 20
+    },
+    {
+      "sample_index": 21,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 21
+    },
+    {
+      "sample_index": 22,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 22
+    },
+    {
+      "sample_index": 23,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 23
+    },
+    {
+      "sample_index": 24,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 24
+    },
+    {
+      "sample_index": 25,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 25
+    },
+    {
+      "sample_index": 26,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 26
+    },
+    {
+      "sample_index": 27,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 27
+    },
+    {
+      "sample_index": 28,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 28
+    },
+    {
+      "sample_index": 29,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 29
+    },
+    {
+      "sample_index": 30,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 30
+    },
+    {
+      "sample_index": 31,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 31
+    },
+    {
+      "sample_index": 32,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 32
+    },
+    {
+      "sample_index": 33,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 33
+    },
+    {
+      "sample_index": 34,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 34
+    },
+    {
+      "sample_index": 35,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 35
+    },
+    {
+      "sample_index": 36,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 36
+    },
+    {
+      "sample_index": 37,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 37
+    },
+    {
+      "sample_index": 38,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 38
+    },
+    {
+      "sample_index": 39,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 39
+    },
+    {
+      "sample_index": 40,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 40
+    },
+    {
+      "sample_index": 41,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 41
+    },
+    {
+      "sample_index": 42,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 42
+    },
+    {
+      "sample_index": 43,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 43
+    },
+    {
+      "sample_index": 44,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 44
+    },
+    {
+      "sample_index": 45,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 45
+    },
+    {
+      "sample_index": 46,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 46
+    },
+    {
+      "sample_index": 47,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 47
+    },
+    {
+      "sample_index": 48,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 48
+    },
+    {
+      "sample_index": 49,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 49
+    },
+    {
+      "sample_index": 50,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 50
+    },
+    {
+      "sample_index": 51,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 51
+    },
+    {
+      "sample_index": 52,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 52
+    },
+    {
+      "sample_index": 53,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 53
+    },
+    {
+      "sample_index": 54,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 54
+    },
+    {
+      "sample_index": 55,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 55
+    },
+    {
+      "sample_index": 56,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 56
+    },
+    {
+      "sample_index": 57,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 57
+    },
+    {
+      "sample_index": 58,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 58
+    },
+    {
+      "sample_index": 59,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 59
+    },
+    {
+      "sample_index": 60,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 60
+    },
+    {
+      "sample_index": 61,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 61
+    },
+    {
+      "sample_index": 62,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 62
+    },
+    {
+      "sample_index": 63,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=0",
+      "timestep": 63
+    },
+    {
+      "sample_index": 64,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 0
+    },
+    {
+      "sample_index": 65,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 1
+    },
+    {
+      "sample_index": 66,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 2
+    },
+    {
+      "sample_index": 67,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 3
+    },
+    {
+      "sample_index": 68,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 4
+    },
+    {
+      "sample_index": 69,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 5
+    },
+    {
+      "sample_index": 70,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 6
+    },
+    {
+      "sample_index": 71,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 7
+    },
+    {
+      "sample_index": 72,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 8
+    },
+    {
+      "sample_index": 73,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 9
+    },
+    {
+      "sample_index": 74,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 10
+    },
+    {
+      "sample_index": 75,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 11
+    },
+    {
+      "sample_index": 76,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 12
+    },
+    {
+      "sample_index": 77,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 13
+    },
+    {
+      "sample_index": 78,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 14
+    },
+    {
+      "sample_index": 79,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 15
+    },
+    {
+      "sample_index": 80,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 16
+    },
+    {
+      "sample_index": 81,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 17
+    },
+    {
+      "sample_index": 82,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 18
+    },
+    {
+      "sample_index": 83,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 19
+    },
+    {
+      "sample_index": 84,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 20
+    },
+    {
+      "sample_index": 85,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 21
+    },
+    {
+      "sample_index": 86,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 22
+    },
+    {
+      "sample_index": 87,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 23
+    },
+    {
+      "sample_index": 88,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 24
+    },
+    {
+      "sample_index": 89,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 25
+    },
+    {
+      "sample_index": 90,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 26
+    },
+    {
+      "sample_index": 91,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 27
+    },
+    {
+      "sample_index": 92,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 28
+    },
+    {
+      "sample_index": 93,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 29
+    },
+    {
+      "sample_index": 94,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 30
+    },
+    {
+      "sample_index": 95,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 31
+    },
+    {
+      "sample_index": 96,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 32
+    },
+    {
+      "sample_index": 97,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 33
+    },
+    {
+      "sample_index": 98,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 34
+    },
+    {
+      "sample_index": 99,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 35
+    },
+    {
+      "sample_index": 100,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 36
+    },
+    {
+      "sample_index": 101,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 37
+    },
+    {
+      "sample_index": 102,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 38
+    },
+    {
+      "sample_index": 103,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 39
+    },
+    {
+      "sample_index": 104,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 40
+    },
+    {
+      "sample_index": 105,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 41
+    },
+    {
+      "sample_index": 106,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 42
+    },
+    {
+      "sample_index": 107,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 43
+    },
+    {
+      "sample_index": 108,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 44
+    },
+    {
+      "sample_index": 109,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 45
+    },
+    {
+      "sample_index": 110,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 46
+    },
+    {
+      "sample_index": 111,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 47
+    },
+    {
+      "sample_index": 112,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 48
+    },
+    {
+      "sample_index": 113,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 49
+    },
+    {
+      "sample_index": 114,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 50
+    },
+    {
+      "sample_index": 115,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 51
+    },
+    {
+      "sample_index": 116,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 52
+    },
+    {
+      "sample_index": 117,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 53
+    },
+    {
+      "sample_index": 118,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 54
+    },
+    {
+      "sample_index": 119,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 55
+    },
+    {
+      "sample_index": 120,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 56
+    },
+    {
+      "sample_index": 121,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 57
+    },
+    {
+      "sample_index": 122,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 58
+    },
+    {
+      "sample_index": 123,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 59
+    },
+    {
+      "sample_index": 124,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 60
+    },
+    {
+      "sample_index": 125,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 61
+    },
+    {
+      "sample_index": 126,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 62
+    },
+    {
+      "sample_index": 127,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=1",
+      "timestep": 63
+    },
+    {
+      "sample_index": 128,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 0
+    },
+    {
+      "sample_index": 129,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 1
+    },
+    {
+      "sample_index": 130,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 2
+    },
+    {
+      "sample_index": 131,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 3
+    },
+    {
+      "sample_index": 132,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 4
+    },
+    {
+      "sample_index": 133,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 5
+    },
+    {
+      "sample_index": 134,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 6
+    },
+    {
+      "sample_index": 135,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 7
+    },
+    {
+      "sample_index": 136,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 8
+    },
+    {
+      "sample_index": 137,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 9
+    },
+    {
+      "sample_index": 138,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 10
+    },
+    {
+      "sample_index": 139,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 11
+    },
+    {
+      "sample_index": 140,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 12
+    },
+    {
+      "sample_index": 141,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 13
+    },
+    {
+      "sample_index": 142,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 14
+    },
+    {
+      "sample_index": 143,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 15
+    },
+    {
+      "sample_index": 144,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 16
+    },
+    {
+      "sample_index": 145,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 17
+    },
+    {
+      "sample_index": 146,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 18
+    },
+    {
+      "sample_index": 147,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 19
+    },
+    {
+      "sample_index": 148,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 20
+    },
+    {
+      "sample_index": 149,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 21
+    },
+    {
+      "sample_index": 150,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 22
+    },
+    {
+      "sample_index": 151,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 23
+    },
+    {
+      "sample_index": 152,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 24
+    },
+    {
+      "sample_index": 153,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 25
+    },
+    {
+      "sample_index": 154,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 26
+    },
+    {
+      "sample_index": 155,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 27
+    },
+    {
+      "sample_index": 156,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 28
+    },
+    {
+      "sample_index": 157,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 29
+    },
+    {
+      "sample_index": 158,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 30
+    },
+    {
+      "sample_index": 159,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 31
+    },
+    {
+      "sample_index": 160,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 32
+    },
+    {
+      "sample_index": 161,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 33
+    },
+    {
+      "sample_index": 162,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 34
+    },
+    {
+      "sample_index": 163,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 35
+    },
+    {
+      "sample_index": 164,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 36
+    },
+    {
+      "sample_index": 165,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 37
+    },
+    {
+      "sample_index": 166,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 38
+    },
+    {
+      "sample_index": 167,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 39
+    },
+    {
+      "sample_index": 168,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 40
+    },
+    {
+      "sample_index": 169,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 41
+    },
+    {
+      "sample_index": 170,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 42
+    },
+    {
+      "sample_index": 171,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 43
+    },
+    {
+      "sample_index": 172,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 44
+    },
+    {
+      "sample_index": 173,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 45
+    },
+    {
+      "sample_index": 174,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 46
+    },
+    {
+      "sample_index": 175,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 47
+    },
+    {
+      "sample_index": 176,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 48
+    },
+    {
+      "sample_index": 177,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 49
+    },
+    {
+      "sample_index": 178,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 50
+    },
+    {
+      "sample_index": 179,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 51
+    },
+    {
+      "sample_index": 180,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 52
+    },
+    {
+      "sample_index": 181,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 53
+    },
+    {
+      "sample_index": 182,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 54
+    },
+    {
+      "sample_index": 183,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 55
+    },
+    {
+      "sample_index": 184,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 56
+    },
+    {
+      "sample_index": 185,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 57
+    },
+    {
+      "sample_index": 186,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 58
+    },
+    {
+      "sample_index": 187,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 59
+    },
+    {
+      "sample_index": 188,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 60
+    },
+    {
+      "sample_index": 189,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 61
+    },
+    {
+      "sample_index": 190,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 62
+    },
+    {
+      "sample_index": 191,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=3",
+      "timestep": 63
+    },
+    {
+      "sample_index": 192,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 0
+    },
+    {
+      "sample_index": 193,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 1
+    },
+    {
+      "sample_index": 194,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 2
+    },
+    {
+      "sample_index": 195,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 3
+    },
+    {
+      "sample_index": 196,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 4
+    },
+    {
+      "sample_index": 197,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 5
+    },
+    {
+      "sample_index": 198,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 6
+    },
+    {
+      "sample_index": 199,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 7
+    },
+    {
+      "sample_index": 200,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 8
+    },
+    {
+      "sample_index": 201,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 9
+    },
+    {
+      "sample_index": 202,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 10
+    },
+    {
+      "sample_index": 203,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 11
+    },
+    {
+      "sample_index": 204,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 12
+    },
+    {
+      "sample_index": 205,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 13
+    },
+    {
+      "sample_index": 206,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 14
+    },
+    {
+      "sample_index": 207,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 15
+    },
+    {
+      "sample_index": 208,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 16
+    },
+    {
+      "sample_index": 209,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 17
+    },
+    {
+      "sample_index": 210,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 18
+    },
+    {
+      "sample_index": 211,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 19
+    },
+    {
+      "sample_index": 212,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 20
+    },
+    {
+      "sample_index": 213,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 21
+    },
+    {
+      "sample_index": 214,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 22
+    },
+    {
+      "sample_index": 215,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 23
+    },
+    {
+      "sample_index": 216,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 24
+    },
+    {
+      "sample_index": 217,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 25
+    },
+    {
+      "sample_index": 218,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 26
+    },
+    {
+      "sample_index": 219,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 27
+    },
+    {
+      "sample_index": 220,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 28
+    },
+    {
+      "sample_index": 221,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 29
+    },
+    {
+      "sample_index": 222,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 30
+    },
+    {
+      "sample_index": 223,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 31
+    },
+    {
+      "sample_index": 224,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 32
+    },
+    {
+      "sample_index": 225,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 33
+    },
+    {
+      "sample_index": 226,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 34
+    },
+    {
+      "sample_index": 227,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 35
+    },
+    {
+      "sample_index": 228,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 36
+    },
+    {
+      "sample_index": 229,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 37
+    },
+    {
+      "sample_index": 230,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 38
+    },
+    {
+      "sample_index": 231,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 39
+    },
+    {
+      "sample_index": 232,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 40
+    },
+    {
+      "sample_index": 233,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 41
+    },
+    {
+      "sample_index": 234,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 42
+    },
+    {
+      "sample_index": 235,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 43
+    },
+    {
+      "sample_index": 236,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 44
+    },
+    {
+      "sample_index": 237,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 45
+    },
+    {
+      "sample_index": 238,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 46
+    },
+    {
+      "sample_index": 239,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 47
+    },
+    {
+      "sample_index": 240,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 48
+    },
+    {
+      "sample_index": 241,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 49
+    },
+    {
+      "sample_index": 242,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 50
+    },
+    {
+      "sample_index": 243,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 51
+    },
+    {
+      "sample_index": 244,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 52
+    },
+    {
+      "sample_index": 245,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 53
+    },
+    {
+      "sample_index": 246,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 54
+    },
+    {
+      "sample_index": 247,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 55
+    },
+    {
+      "sample_index": 248,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 56
+    },
+    {
+      "sample_index": 249,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 57
+    },
+    {
+      "sample_index": 250,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 58
+    },
+    {
+      "sample_index": 251,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 59
+    },
+    {
+      "sample_index": 252,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 60
+    },
+    {
+      "sample_index": 253,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 61
+    },
+    {
+      "sample_index": 254,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 62
+    },
+    {
+      "sample_index": 255,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5::episode_index=6",
+      "timestep": 63
+    },
+    {
+      "sample_index": 256,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 0
+    },
+    {
+      "sample_index": 257,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 1
+    },
+    {
+      "sample_index": 258,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 2
+    },
+    {
+      "sample_index": 259,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 3
+    },
+    {
+      "sample_index": 260,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 4
+    },
+    {
+      "sample_index": 261,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 5
+    },
+    {
+      "sample_index": 262,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 6
+    },
+    {
+      "sample_index": 263,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 7
+    },
+    {
+      "sample_index": 264,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 8
+    },
+    {
+      "sample_index": 265,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 9
+    },
+    {
+      "sample_index": 266,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 10
+    },
+    {
+      "sample_index": 267,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 11
+    },
+    {
+      "sample_index": 268,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 12
+    },
+    {
+      "sample_index": 269,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 13
+    },
+    {
+      "sample_index": 270,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 14
+    },
+    {
+      "sample_index": 271,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 15
+    },
+    {
+      "sample_index": 272,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 16
+    },
+    {
+      "sample_index": 273,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 17
+    },
+    {
+      "sample_index": 274,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 18
+    },
+    {
+      "sample_index": 275,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 19
+    },
+    {
+      "sample_index": 276,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 20
+    },
+    {
+      "sample_index": 277,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 21
+    },
+    {
+      "sample_index": 278,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 22
+    },
+    {
+      "sample_index": 279,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 23
+    },
+    {
+      "sample_index": 280,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 24
+    },
+    {
+      "sample_index": 281,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 25
+    },
+    {
+      "sample_index": 282,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 26
+    },
+    {
+      "sample_index": 283,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 27
+    },
+    {
+      "sample_index": 284,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 28
+    },
+    {
+      "sample_index": 285,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 29
+    },
+    {
+      "sample_index": 286,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 30
+    },
+    {
+      "sample_index": 287,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 31
+    },
+    {
+      "sample_index": 288,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 32
+    },
+    {
+      "sample_index": 289,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 33
+    },
+    {
+      "sample_index": 290,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 34
+    },
+    {
+      "sample_index": 291,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 35
+    },
+    {
+      "sample_index": 292,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 36
+    },
+    {
+      "sample_index": 293,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 37
+    },
+    {
+      "sample_index": 294,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 38
+    },
+    {
+      "sample_index": 295,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 39
+    },
+    {
+      "sample_index": 296,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 40
+    },
+    {
+      "sample_index": 297,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 41
+    },
+    {
+      "sample_index": 298,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 42
+    },
+    {
+      "sample_index": 299,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 43
+    },
+    {
+      "sample_index": 300,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 44
+    },
+    {
+      "sample_index": 301,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 45
+    },
+    {
+      "sample_index": 302,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 46
+    },
+    {
+      "sample_index": 303,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 47
+    },
+    {
+      "sample_index": 304,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 48
+    },
+    {
+      "sample_index": 305,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 49
+    },
+    {
+      "sample_index": 306,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 50
+    },
+    {
+      "sample_index": 307,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 51
+    },
+    {
+      "sample_index": 308,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 52
+    },
+    {
+      "sample_index": 309,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 53
+    },
+    {
+      "sample_index": 310,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 54
+    },
+    {
+      "sample_index": 311,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 55
+    },
+    {
+      "sample_index": 312,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 56
+    },
+    {
+      "sample_index": 313,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 57
+    },
+    {
+      "sample_index": 314,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 58
+    },
+    {
+      "sample_index": 315,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 59
+    },
+    {
+      "sample_index": 316,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 60
+    },
+    {
+      "sample_index": 317,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 61
+    },
+    {
+      "sample_index": 318,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 62
+    },
+    {
+      "sample_index": 319,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=11",
+      "timestep": 63
+    },
+    {
+      "sample_index": 320,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 0
+    },
+    {
+      "sample_index": 321,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 1
+    },
+    {
+      "sample_index": 322,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 2
+    },
+    {
+      "sample_index": 323,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 3
+    },
+    {
+      "sample_index": 324,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 4
+    },
+    {
+      "sample_index": 325,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 5
+    },
+    {
+      "sample_index": 326,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 6
+    },
+    {
+      "sample_index": 327,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 7
+    },
+    {
+      "sample_index": 328,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 8
+    },
+    {
+      "sample_index": 329,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 9
+    },
+    {
+      "sample_index": 330,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 10
+    },
+    {
+      "sample_index": 331,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 11
+    },
+    {
+      "sample_index": 332,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 12
+    },
+    {
+      "sample_index": 333,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 13
+    },
+    {
+      "sample_index": 334,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 14
+    },
+    {
+      "sample_index": 335,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 15
+    },
+    {
+      "sample_index": 336,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 16
+    },
+    {
+      "sample_index": 337,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 17
+    },
+    {
+      "sample_index": 338,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 18
+    },
+    {
+      "sample_index": 339,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 19
+    },
+    {
+      "sample_index": 340,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 20
+    },
+    {
+      "sample_index": 341,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 21
+    },
+    {
+      "sample_index": 342,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 22
+    },
+    {
+      "sample_index": 343,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 23
+    },
+    {
+      "sample_index": 344,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 24
+    },
+    {
+      "sample_index": 345,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 25
+    },
+    {
+      "sample_index": 346,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 26
+    },
+    {
+      "sample_index": 347,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 27
+    },
+    {
+      "sample_index": 348,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 28
+    },
+    {
+      "sample_index": 349,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 29
+    },
+    {
+      "sample_index": 350,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 30
+    },
+    {
+      "sample_index": 351,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 31
+    },
+    {
+      "sample_index": 352,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 32
+    },
+    {
+      "sample_index": 353,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 33
+    },
+    {
+      "sample_index": 354,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 34
+    },
+    {
+      "sample_index": 355,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 35
+    },
+    {
+      "sample_index": 356,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 36
+    },
+    {
+      "sample_index": 357,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 37
+    },
+    {
+      "sample_index": 358,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 38
+    },
+    {
+      "sample_index": 359,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 39
+    },
+    {
+      "sample_index": 360,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 40
+    },
+    {
+      "sample_index": 361,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 41
+    },
+    {
+      "sample_index": 362,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 42
+    },
+    {
+      "sample_index": 363,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 43
+    },
+    {
+      "sample_index": 364,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 44
+    },
+    {
+      "sample_index": 365,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 45
+    },
+    {
+      "sample_index": 366,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 46
+    },
+    {
+      "sample_index": 367,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 47
+    },
+    {
+      "sample_index": 368,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 48
+    },
+    {
+      "sample_index": 369,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 49
+    },
+    {
+      "sample_index": 370,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 50
+    },
+    {
+      "sample_index": 371,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 51
+    },
+    {
+      "sample_index": 372,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 52
+    },
+    {
+      "sample_index": 373,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 53
+    },
+    {
+      "sample_index": 374,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 54
+    },
+    {
+      "sample_index": 375,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 55
+    },
+    {
+      "sample_index": 376,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 56
+    },
+    {
+      "sample_index": 377,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 57
+    },
+    {
+      "sample_index": 378,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 58
+    },
+    {
+      "sample_index": 379,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 59
+    },
+    {
+      "sample_index": 380,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 60
+    },
+    {
+      "sample_index": 381,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 61
+    },
+    {
+      "sample_index": 382,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 62
+    },
+    {
+      "sample_index": 383,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5::episode_index=17",
+      "timestep": 63
+    },
+    {
+      "sample_index": 384,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 0
+    },
+    {
+      "sample_index": 385,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 1
+    },
+    {
+      "sample_index": 386,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 2
+    },
+    {
+      "sample_index": 387,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 3
+    },
+    {
+      "sample_index": 388,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 4
+    },
+    {
+      "sample_index": 389,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 5
+    },
+    {
+      "sample_index": 390,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 6
+    },
+    {
+      "sample_index": 391,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 7
+    },
+    {
+      "sample_index": 392,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 8
+    },
+    {
+      "sample_index": 393,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 9
+    },
+    {
+      "sample_index": 394,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 10
+    },
+    {
+      "sample_index": 395,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 11
+    },
+    {
+      "sample_index": 396,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 12
+    },
+    {
+      "sample_index": 397,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 13
+    },
+    {
+      "sample_index": 398,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 14
+    },
+    {
+      "sample_index": 399,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 15
+    },
+    {
+      "sample_index": 400,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 16
+    },
+    {
+      "sample_index": 401,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 17
+    },
+    {
+      "sample_index": 402,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 18
+    },
+    {
+      "sample_index": 403,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 19
+    },
+    {
+      "sample_index": 404,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 20
+    },
+    {
+      "sample_index": 405,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 21
+    },
+    {
+      "sample_index": 406,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 22
+    },
+    {
+      "sample_index": 407,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 23
+    },
+    {
+      "sample_index": 408,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 24
+    },
+    {
+      "sample_index": 409,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 25
+    },
+    {
+      "sample_index": 410,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 26
+    },
+    {
+      "sample_index": 411,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 27
+    },
+    {
+      "sample_index": 412,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 28
+    },
+    {
+      "sample_index": 413,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 29
+    },
+    {
+      "sample_index": 414,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 30
+    },
+    {
+      "sample_index": 415,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 31
+    },
+    {
+      "sample_index": 416,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 32
+    },
+    {
+      "sample_index": 417,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 33
+    },
+    {
+      "sample_index": 418,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 34
+    },
+    {
+      "sample_index": 419,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 35
+    },
+    {
+      "sample_index": 420,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 36
+    },
+    {
+      "sample_index": 421,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 37
+    },
+    {
+      "sample_index": 422,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 38
+    },
+    {
+      "sample_index": 423,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 39
+    },
+    {
+      "sample_index": 424,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 40
+    },
+    {
+      "sample_index": 425,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 41
+    },
+    {
+      "sample_index": 426,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 42
+    },
+    {
+      "sample_index": 427,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 43
+    },
+    {
+      "sample_index": 428,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 44
+    },
+    {
+      "sample_index": 429,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 45
+    },
+    {
+      "sample_index": 430,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 46
+    },
+    {
+      "sample_index": 431,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 47
+    },
+    {
+      "sample_index": 432,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 48
+    },
+    {
+      "sample_index": 433,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 49
+    },
+    {
+      "sample_index": 434,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 50
+    },
+    {
+      "sample_index": 435,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 51
+    },
+    {
+      "sample_index": 436,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 52
+    },
+    {
+      "sample_index": 437,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 53
+    },
+    {
+      "sample_index": 438,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 54
+    },
+    {
+      "sample_index": 439,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 55
+    },
+    {
+      "sample_index": 440,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 56
+    },
+    {
+      "sample_index": 441,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 57
+    },
+    {
+      "sample_index": 442,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 58
+    },
+    {
+      "sample_index": 443,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 59
+    },
+    {
+      "sample_index": 444,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 60
+    },
+    {
+      "sample_index": 445,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 61
+    },
+    {
+      "sample_index": 446,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 62
+    },
+    {
+      "sample_index": 447,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5::episode_index=19",
+      "timestep": 63
+    },
+    {
+      "sample_index": 448,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 0
+    },
+    {
+      "sample_index": 449,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 1
+    },
+    {
+      "sample_index": 450,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 2
+    },
+    {
+      "sample_index": 451,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 3
+    },
+    {
+      "sample_index": 452,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 4
+    },
+    {
+      "sample_index": 453,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 5
+    },
+    {
+      "sample_index": 454,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 6
+    },
+    {
+      "sample_index": 455,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 7
+    },
+    {
+      "sample_index": 456,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 8
+    },
+    {
+      "sample_index": 457,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 9
+    },
+    {
+      "sample_index": 458,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 10
+    },
+    {
+      "sample_index": 459,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 11
+    },
+    {
+      "sample_index": 460,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 12
+    },
+    {
+      "sample_index": 461,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 13
+    },
+    {
+      "sample_index": 462,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 14
+    },
+    {
+      "sample_index": 463,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 15
+    },
+    {
+      "sample_index": 464,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 16
+    },
+    {
+      "sample_index": 465,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 17
+    },
+    {
+      "sample_index": 466,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 18
+    },
+    {
+      "sample_index": 467,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 19
+    },
+    {
+      "sample_index": 468,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 20
+    },
+    {
+      "sample_index": 469,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 21
+    },
+    {
+      "sample_index": 470,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 22
+    },
+    {
+      "sample_index": 471,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 23
+    },
+    {
+      "sample_index": 472,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 24
+    },
+    {
+      "sample_index": 473,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 25
+    },
+    {
+      "sample_index": 474,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 26
+    },
+    {
+      "sample_index": 475,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 27
+    },
+    {
+      "sample_index": 476,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 28
+    },
+    {
+      "sample_index": 477,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 29
+    },
+    {
+      "sample_index": 478,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 30
+    },
+    {
+      "sample_index": 479,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 31
+    },
+    {
+      "sample_index": 480,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 32
+    },
+    {
+      "sample_index": 481,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 33
+    },
+    {
+      "sample_index": 482,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 34
+    },
+    {
+      "sample_index": 483,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 35
+    },
+    {
+      "sample_index": 484,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 36
+    },
+    {
+      "sample_index": 485,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 37
+    },
+    {
+      "sample_index": 486,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 38
+    },
+    {
+      "sample_index": 487,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 39
+    },
+    {
+      "sample_index": 488,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 40
+    },
+    {
+      "sample_index": 489,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 41
+    },
+    {
+      "sample_index": 490,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 42
+    },
+    {
+      "sample_index": 491,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 43
+    },
+    {
+      "sample_index": 492,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 44
+    },
+    {
+      "sample_index": 493,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 45
+    },
+    {
+      "sample_index": 494,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 46
+    },
+    {
+      "sample_index": 495,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 47
+    },
+    {
+      "sample_index": 496,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 48
+    },
+    {
+      "sample_index": 497,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 49
+    },
+    {
+      "sample_index": 498,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 50
+    },
+    {
+      "sample_index": 499,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 51
+    },
+    {
+      "sample_index": 500,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 52
+    },
+    {
+      "sample_index": 501,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 53
+    },
+    {
+      "sample_index": 502,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 54
+    },
+    {
+      "sample_index": 503,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 55
+    },
+    {
+      "sample_index": 504,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 56
+    },
+    {
+      "sample_index": 505,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 57
+    },
+    {
+      "sample_index": 506,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 58
+    },
+    {
+      "sample_index": 507,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 59
+    },
+    {
+      "sample_index": 508,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 60
+    },
+    {
+      "sample_index": 509,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 61
+    },
+    {
+      "sample_index": 510,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 62
+    },
+    {
+      "sample_index": 511,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=20",
+      "timestep": 63
+    },
+    {
+      "sample_index": 512,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 0
+    },
+    {
+      "sample_index": 513,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 1
+    },
+    {
+      "sample_index": 514,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 2
+    },
+    {
+      "sample_index": 515,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 3
+    },
+    {
+      "sample_index": 516,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 4
+    },
+    {
+      "sample_index": 517,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 5
+    },
+    {
+      "sample_index": 518,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 6
+    },
+    {
+      "sample_index": 519,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 7
+    },
+    {
+      "sample_index": 520,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 8
+    },
+    {
+      "sample_index": 521,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 9
+    },
+    {
+      "sample_index": 522,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 10
+    },
+    {
+      "sample_index": 523,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 11
+    },
+    {
+      "sample_index": 524,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 12
+    },
+    {
+      "sample_index": 525,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 13
+    },
+    {
+      "sample_index": 526,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 14
+    },
+    {
+      "sample_index": 527,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 15
+    },
+    {
+      "sample_index": 528,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 16
+    },
+    {
+      "sample_index": 529,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 17
+    },
+    {
+      "sample_index": 530,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 18
+    },
+    {
+      "sample_index": 531,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 19
+    },
+    {
+      "sample_index": 532,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 20
+    },
+    {
+      "sample_index": 533,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 21
+    },
+    {
+      "sample_index": 534,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 22
+    },
+    {
+      "sample_index": 535,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 23
+    },
+    {
+      "sample_index": 536,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 24
+    },
+    {
+      "sample_index": 537,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 25
+    },
+    {
+      "sample_index": 538,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 26
+    },
+    {
+      "sample_index": 539,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 27
+    },
+    {
+      "sample_index": 540,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 28
+    },
+    {
+      "sample_index": 541,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 29
+    },
+    {
+      "sample_index": 542,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 30
+    },
+    {
+      "sample_index": 543,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 31
+    },
+    {
+      "sample_index": 544,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 32
+    },
+    {
+      "sample_index": 545,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 33
+    },
+    {
+      "sample_index": 546,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 34
+    },
+    {
+      "sample_index": 547,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 35
+    },
+    {
+      "sample_index": 548,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 36
+    },
+    {
+      "sample_index": 549,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 37
+    },
+    {
+      "sample_index": 550,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 38
+    },
+    {
+      "sample_index": 551,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 39
+    },
+    {
+      "sample_index": 552,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 40
+    },
+    {
+      "sample_index": 553,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 41
+    },
+    {
+      "sample_index": 554,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 42
+    },
+    {
+      "sample_index": 555,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 43
+    },
+    {
+      "sample_index": 556,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 44
+    },
+    {
+      "sample_index": 557,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 45
+    },
+    {
+      "sample_index": 558,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 46
+    },
+    {
+      "sample_index": 559,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 47
+    },
+    {
+      "sample_index": 560,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 48
+    },
+    {
+      "sample_index": 561,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 49
+    },
+    {
+      "sample_index": 562,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 50
+    },
+    {
+      "sample_index": 563,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 51
+    },
+    {
+      "sample_index": 564,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 52
+    },
+    {
+      "sample_index": 565,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 53
+    },
+    {
+      "sample_index": 566,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 54
+    },
+    {
+      "sample_index": 567,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 55
+    },
+    {
+      "sample_index": 568,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 56
+    },
+    {
+      "sample_index": 569,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 57
+    },
+    {
+      "sample_index": 570,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 58
+    },
+    {
+      "sample_index": 571,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 59
+    },
+    {
+      "sample_index": 572,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 60
+    },
+    {
+      "sample_index": 573,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 61
+    },
+    {
+      "sample_index": 574,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 62
+    },
+    {
+      "sample_index": 575,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5::episode_index=22",
+      "timestep": 63
+    },
+    {
+      "sample_index": 576,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 0
+    },
+    {
+      "sample_index": 577,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 1
+    },
+    {
+      "sample_index": 578,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 2
+    },
+    {
+      "sample_index": 579,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 3
+    },
+    {
+      "sample_index": 580,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 4
+    },
+    {
+      "sample_index": 581,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 5
+    },
+    {
+      "sample_index": 582,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 6
+    },
+    {
+      "sample_index": 583,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 7
+    },
+    {
+      "sample_index": 584,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 8
+    },
+    {
+      "sample_index": 585,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 9
+    },
+    {
+      "sample_index": 586,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 10
+    },
+    {
+      "sample_index": 587,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 11
+    },
+    {
+      "sample_index": 588,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 12
+    },
+    {
+      "sample_index": 589,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 13
+    },
+    {
+      "sample_index": 590,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 14
+    },
+    {
+      "sample_index": 591,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 15
+    },
+    {
+      "sample_index": 592,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 16
+    },
+    {
+      "sample_index": 593,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 17
+    },
+    {
+      "sample_index": 594,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 18
+    },
+    {
+      "sample_index": 595,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 19
+    },
+    {
+      "sample_index": 596,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 20
+    },
+    {
+      "sample_index": 597,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 21
+    },
+    {
+      "sample_index": 598,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 22
+    },
+    {
+      "sample_index": 599,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 23
+    },
+    {
+      "sample_index": 600,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 24
+    },
+    {
+      "sample_index": 601,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 25
+    },
+    {
+      "sample_index": 602,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 26
+    },
+    {
+      "sample_index": 603,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 27
+    },
+    {
+      "sample_index": 604,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 28
+    },
+    {
+      "sample_index": 605,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 29
+    },
+    {
+      "sample_index": 606,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 30
+    },
+    {
+      "sample_index": 607,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 31
+    },
+    {
+      "sample_index": 608,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 32
+    },
+    {
+      "sample_index": 609,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 33
+    },
+    {
+      "sample_index": 610,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 34
+    },
+    {
+      "sample_index": 611,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 35
+    },
+    {
+      "sample_index": 612,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 36
+    },
+    {
+      "sample_index": 613,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 37
+    },
+    {
+      "sample_index": 614,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 38
+    },
+    {
+      "sample_index": 615,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 39
+    },
+    {
+      "sample_index": 616,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 40
+    },
+    {
+      "sample_index": 617,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 41
+    },
+    {
+      "sample_index": 618,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 42
+    },
+    {
+      "sample_index": 619,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 43
+    },
+    {
+      "sample_index": 620,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 44
+    },
+    {
+      "sample_index": 621,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 45
+    },
+    {
+      "sample_index": 622,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 46
+    },
+    {
+      "sample_index": 623,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 47
+    },
+    {
+      "sample_index": 624,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 48
+    },
+    {
+      "sample_index": 625,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 49
+    },
+    {
+      "sample_index": 626,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 50
+    },
+    {
+      "sample_index": 627,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 51
+    },
+    {
+      "sample_index": 628,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 52
+    },
+    {
+      "sample_index": 629,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 53
+    },
+    {
+      "sample_index": 630,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 54
+    },
+    {
+      "sample_index": 631,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 55
+    },
+    {
+      "sample_index": 632,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 56
+    },
+    {
+      "sample_index": 633,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 57
+    },
+    {
+      "sample_index": 634,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 58
+    },
+    {
+      "sample_index": 635,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 59
+    },
+    {
+      "sample_index": 636,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 60
+    },
+    {
+      "sample_index": 637,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 61
+    },
+    {
+      "sample_index": 638,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 62
+    },
+    {
+      "sample_index": 639,
+      "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5::episode_index=29",
+      "timestep": 63
+    }
+  ],
+  "elapsed_sec": 533.8630750179291
+}

@@ -1,0 +1,282 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "split_seed": 20260922,
+  "dataset_repo": "openvla/modified_libero_rlds",
+  "dataset_revision": "6ce6aaaaabdbe590b1eef5cd29c0d33f14a08551",
+  "download_file_count": 105,
+  "download_bytes": 10230690878,
+  "materialized_suites": [
+    "libero_spatial_no_noops",
+    "libero_object_no_noops"
+  ],
+  "train_samples": 1280,
+  "heldout_samples": 640,
+  "baseline": {
+    "run": "official_baseline",
+    "sample_count": 640,
+    "macro_suite_normalized_action_l1": 0.16450008009851444,
+    "relative_improvement_vs_baseline": 0.0,
+    "first_action_step_l1": 0.15692020013302682,
+    "spatial_l1": 0.051142360764788466,
+    "object_l1": 0.2778577994322404,
+    "train_steps": "",
+    "train_elapsed_sec": ""
+  },
+  "sft_step250": {
+    "run": "head_proprio_sft_step250",
+    "sample_count": 640,
+    "macro_suite_normalized_action_l1": 0.1370581550174393,
+    "relative_improvement_vs_baseline": 0.16682013203057994,
+    "first_action_step_l1": 0.1270250175060937,
+    "spatial_l1": 0.06598776932805776,
+    "object_l1": 0.2081285407068208,
+    "train_steps": 1000,
+    "train_elapsed_sec": 3455.340829849243
+  },
+  "distill_step250": {
+    "run": "head_proprio_distill_step250",
+    "sample_count": 640,
+    "macro_suite_normalized_action_l1": 0.1350256758450996,
+    "relative_improvement_vs_baseline": 0.1791756225028185,
+    "first_action_step_l1": 0.1253379559406312,
+    "spatial_l1": 0.06305788598256186,
+    "object_l1": 0.20699346570763738,
+    "train_steps": 500,
+    "train_elapsed_sec": 2073.372981786728
+  },
+  "sft_formal": {
+    "steps": 1000,
+    "elapsed_sec": 3455.340829849243,
+    "final_train_l1": 0.1163330078125,
+    "parameter_deltas": {
+      "head_max_abs_delta": 0.0357666015625,
+      "projector_max_abs_delta": 0.035125732421875,
+      "backbone_probe_max_abs_delta": 0.0
+    }
+  },
+  "distill_formal": {
+    "steps": 500,
+    "elapsed_sec": 2073.372981786728,
+    "final_gt_l1": 0.1322021484375,
+    "final_keep_smooth_l1": 0.0347900390625
+  },
+  "lora_smoke": {
+    "status": "SUCCESS",
+    "steps": 3,
+    "formal_run": false
+  },
+  "checkpoint_sha256": {
+    "sft_action_head_final": "5aeed483857a0844fbb02e2f001bbb9acf9f642d675c27220e49737f5d7f7414",
+    "sft_proprio_projector_final": "8bf25e32adb6469ad70a59d9fcc6a72e1931e991d101a890e70e3ca9138fe037",
+    "distill_action_head_final": "9029885099e54e95e36adba82247cc7a99c53618b4a1c62f494d6801c10895d0",
+    "distill_proprio_projector_final": "28309ddc3a9f39a9c189b6c0763a6e3ae0a1842ed8abe1f66c5c5ab26bfe7f68"
+  },
+  "final_reload_smoke": {
+    "config": {
+      "suites": "libero_spatial_no_noops,libero_object_no_noops",
+      "split": "heldout",
+      "checkpoint": "/share/yangpengju-local/openvla-oft-repro/checkpoints/openvla-7b-oft-finetuned-libero-spatial",
+      "components": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/03_head_proprio_sft/formal_full_1000",
+      "output": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/03_head_proprio_sft/formal_full_1000/reload_smoke.json",
+      "max_samples": 1
+    },
+    "elapsed_sec": 0.9346179962158203,
+    "metrics": {
+      "sample_count": 1,
+      "per_task": {
+        "libero_spatial_no_noops::pick up the black bowl on the ramekin and place it on the plate": 0.12092273682355881
+      },
+      "per_suite": {
+        "libero_spatial_no_noops": 0.12092273682355881
+      },
+      "macro_task_normalized_action_l1": 0.12092273682355881,
+      "macro_suite_normalized_action_l1": 0.12092273682355881,
+      "first_action_step_l1": 0.048740584403276443,
+      "per_dimension_mae": [
+        0.16260281205177307,
+        0.15738649666309357,
+        0.07226178795099258,
+        0.11705506592988968,
+        0.14724168181419373,
+        0.15426678955554962,
+        0.03564453125
+      ]
+    },
+    "rows": [
+      {
+        "sample_index": 0,
+        "suite": "libero_spatial_no_noops",
+        "task": "pick up the black bowl on the ramekin and place it on the plate",
+        "episode_id": "/iris/u/moojink/prismatic-dev/LIBERO/libero/datasets/regenerated--no_noops/libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5::episode_index=5",
+        "timestep": 0,
+        "ground_truth_action_chunk": [
+          [
+            -0.11409968137741089,
+            0.1358884572982788,
+            -0.11461317539215088,
+            0.01522839069366455,
+            0.07821226119995117,
+            0.16233766078948975,
+            1.0
+          ],
+          [
+            -0.11409968137741089,
+            0.3101046085357666,
+            -0.028653323650360107,
+            0.01522839069366455,
+            -0.005586564540863037,
+            0.14935076236724854,
+            1.0
+          ],
+          [
+            -0.11409968137741089,
+            0.5783971548080444,
+            0.002865314483642578,
+            0.01522839069366455,
+            -0.12290507555007935,
+            0.35064947605133057,
+            1.0
+          ],
+          [
+            -0.09818398952484131,
+            0.7421603202819824,
+            0.002865314483642578,
+            -0.10659909248352051,
+            -0.06703907251358032,
+            0.4740259647369385,
+            1.0
+          ],
+          [
+            0.02277541160583496,
+            0.7665506601333618,
+            0.002865314483642578,
+            -0.12690359354019165,
+            0.0223463773727417,
+            0.4740259647369385,
+            1.0
+          ],
+          [
+            0.19148194789886475,
+            0.8397212028503418,
+            0.002865314483642578,
+            -0.1573604941368103,
+            0.07262575626373291,
+            0.37012994289398193,
+            1.0
+          ],
+          [
+            0.2519615888595581,
+            0.8675957918167114,
+            0.002865314483642578,
+            -0.19796961545944214,
+            0.07821226119995117,
+            0.3116884231567383,
+            1.0
+          ],
+          [
+            0.2837930917739868,
+            0.8780487775802612,
+            0.002865314483642578,
+            -0.18781733512878418,
+            0.07821226119995117,
+            0.2987014055252075,
+            1.0
+          ]
+        ],
+        "predicted_action_chunk": [
+          [
+            -0.061279296875,
+            0.1337890625,
+            0.028076171875,
+            -0.034912109375,
+            0.1259765625,
+            0.1806640625,
+            0.97265625
+          ],
+          [
+            -0.015380859375,
+            0.1943359375,
+            0.032470703125,
+            -0.03466796875,
+            0.0947265625,
+            0.1572265625,
+            0.97265625
+          ],
+          [
+            0.04345703125,
+            0.283203125,
+            0.054443359375,
+            -0.02587890625,
+            0.11083984375,
+            0.177734375,
+            0.96875
+          ],
+          [
+            0.1806640625,
+            0.466796875,
+            0.09765625,
+            -0.00860595703125,
+            0.171875,
+            0.1787109375,
+            0.9609375
+          ],
+          [
+            0.330078125,
+            0.65234375,
+            0.09033203125,
+            -0.002593994140625,
+            0.2333984375,
+            0.19140625,
+            0.953125
+          ],
+          [
+            0.380859375,
+            0.703125,
+            0.07763671875,
+            0.002197265625,
+            0.2080078125,
+            0.1806640625,
+            0.94921875
+          ],
+          [
+            0.384765625,
+            0.7109375,
+            0.0400390625,
+            0.01116943359375,
+            0.1943359375,
+            0.17578125,
+            0.9609375
+          ],
+          [
+            0.3671875,
+            0.71484375,
+            -0.025634765625,
+            0.0164794921875,
+            0.1728515625,
+            0.1669921875,
+            0.9765625
+          ]
+        ],
+        "full_chunk_l1": 0.12092273682355881,
+        "first_action_l1": 0.048740584403276443,
+        "per_dimension_mae": [
+          0.16260281205177307,
+          0.15738649666309357,
+          0.07226178795099258,
+          0.11705506592988968,
+          0.14724168181419373,
+          0.15426678955554962,
+          0.03564453125
+        ],
+        "finite": true
+      }
+    ]
+  },
+  "selection_rule": "All checkpoints retained; step-250 was the best fixed-heldout candidate among evaluated component checkpoints. Formal SFT (1000) and distillation (500) completed.",
+  "limitations": [
+    "Offline normalized action L1 only; no simulator rendering or closed-loop success.",
+    "Only Spatial and Object were materialized/evaluated; Goal and Libero10 were downloaded but not trained/evaluated.",
+    "LoRA was a 3-step smoke only."
+  ]
+}

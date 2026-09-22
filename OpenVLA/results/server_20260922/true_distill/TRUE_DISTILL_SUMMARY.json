@@ -1,0 +1,25 @@
+{
+  "type": "independent_small_student_distillation",
+  "teacher": "official OpenVLA-7B fine-tuned LIBERO-Spatial checkpoint",
+  "student": "TinyPolicy: independent 6-channel CNN + bag-of-words language encoder + proprio MLP + action MLP",
+  "student_parameters": 213656,
+  "world_size": 3,
+  "steps": 1000,
+  "train_batch_size_per_rank": 16,
+  "teacher_weight": 0.5,
+  "teacher_targets": "official teacher action cache for Spatial train samples; Object uses ground-truth loss because teacher is not trained for Object",
+  "baseline_macro_l1": 0.16450008009851444,
+  "student_macro_l1": 0.21346141091780738,
+  "relative_change_vs_baseline": 0.29763712449240987,
+  "student_per_suite": {
+    "libero_spatial_no_noops": 0.20728074810467662,
+    "libero_object_no_noops": 0.21964207373093814
+  },
+  "student_first_action_l1": 0.19886273649754002,
+  "student_checkpoint_sha256": "f98b7bdc5d5cbebc7aac57662141b04cb517ac88ccfe2728e5cfa5984bdcbe42",
+  "limitations": [
+    "Student CNN was trained from scratch and is intentionally a minimal proof-of-concept, not a production VLA.",
+    "Language is a fixed vocabulary bag-of-words representation over the 20-task offline protocol.",
+    "No closed-loop simulator success was run."
+  ]
+}

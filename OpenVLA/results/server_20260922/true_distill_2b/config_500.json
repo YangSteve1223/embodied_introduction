@@ -1,0 +1,14 @@
+{
+  "run_dir": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/06_true_distill/truncated4_2b_500",
+  "teacher_cache": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/04_head_proprio_distill/teacher_actions.npy",
+  "max_steps": 500,
+  "layers": 4,
+  "grad_accum": 4,
+  "lr": 2e-05,
+  "teacher_weight": 0.5,
+  "seed": 20260922,
+  "world_size": 3,
+  "full_layers": 32,
+  "student_layers": 4,
+  "student_parameters": 2042439111
+}

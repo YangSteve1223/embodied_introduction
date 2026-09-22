@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/share/yangpengju-local/openvla-oft-repro/checkpoints/openvla-7b-oft-finetuned-libero-spatial",
+  "grad_accum": 4,
+  "lr": 0.0001,
+  "max_steps": 1000,
+  "mode": "full",
+  "run_dir": "/share/yangpengju-local/openvla-oft-repro/runs/post_training_20260922/03_head_proprio_sft/formal_full_1000",
+  "save_freq": 250,
+  "seed": 20260922,
+  "suites": "libero_spatial_no_noops,libero_object_no_noops"
+}

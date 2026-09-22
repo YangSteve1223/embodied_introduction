@@ -77,7 +77,7 @@ From the local Mac, this copies only the new experiment and the ignore rule;
 it does not touch EXP-002/003 or delete anything on the server:
 
 ```bash
-cd /Users/yangda/Documents/Codex/2026-09-18/wo/embodied_introduction
+cd /Users/yangda/Documents/TaskandWork/embodied_introduction
 rsync -av --exclude='results/' --exclude='*.pt' --exclude='*.pth' \
   exp004/ act-server:/share/yangpengju-local/embodied/embodied_introduction/exp004/
 rsync -av .gitignore \

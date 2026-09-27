@@ -1,0 +1,5 @@
+assets: /share/yangpengju-local/openvla-oft-repro/src/LIBERO/libero/libero/assets
+benchmark_root: /share/yangpengju-local/openvla-oft-repro/src/LIBERO/libero/libero
+bddl_files: /share/yangpengju-local/openvla-oft-repro/src/LIBERO/libero/libero/bddl_files
+datasets: /share/yangpengju-local/openvla-oft-repro/src/LIBERO/libero/datasets
+init_states: /share/yangpengju-local/openvla-oft-repro/src/LIBERO/libero/libero/init_files
